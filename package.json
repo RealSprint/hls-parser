@@ -10,7 +10,7 @@
         "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
         "test": "npx jest --ci",
         "coverage": "npx jest --ci --coverage",
-        "prepare": "npm run build"
+        "install": "npm run build"
     },
     "repository": {
         "url": "git+https://github.com/flocasts/hls-parser.git",
