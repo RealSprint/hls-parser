@@ -12,7 +12,9 @@
         "coverage": "npx jest --ci --coverage"
     },
     "files": [
-        "dist"
+        "dist",
+        "dist/*",
+        "dist/**/*"
     ],
     "repository": {
         "url": "git+https://github.com/flocasts/hls-parser.git",
